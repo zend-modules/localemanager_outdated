@@ -12,9 +12,6 @@
     "autoload": {
         "psr-4": {
             "LocaleManager\\": "src/"
-        },
-        "classmap": [
-            "./Module.php"
-        ]
+        }
     }
 }
