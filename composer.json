@@ -1,0 +1,20 @@
+{
+    "name": "zend-modules/localemanager",
+    "description": "Locale manager component for ZF2",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.5",
+        "ext-intl": "*",
+        "zendframework/zend-eventmanager": "~2.5",
+        "zendframework/zend-mvc": "~2.5",
+        "zendframework/zend-servicemanager": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LocaleManager\\": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
